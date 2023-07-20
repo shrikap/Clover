@@ -11,6 +11,12 @@
 		BDB6EC3B2A69A44F00CDDEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC3A2A69A44F00CDDEBF /* ContentView.swift */; };
 		BDB6EC3D2A69A45000CDDEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6EC3C2A69A45000CDDEBF /* Assets.xcassets */; };
 		BDB6EC402A69A45000CDDEBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6EC3F2A69A45000CDDEBF /* Preview Assets.xcassets */; };
+		BDB6EC492A69A48700CDDEBF /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC482A69A48600CDDEBF /* homepage.swift */; };
+		BDB6EC4B2A69B33400CDDEBF /* fashionablyeducated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC4A2A69B33400CDDEBF /* fashionablyeducated.swift */; };
+		BDB6EC4D2A69B34B00CDDEBF /* sustainablestars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC4C2A69B34B00CDDEBF /* sustainablestars.swift */; };
+		BDB6EC4F2A69B37300CDDEBF /* signaturestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */; };
+		BDB6EC512A69B3F700CDDEBF /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC502A69B3F700CDDEBF /* history.swift */; };
+		BDB6EC532A69B40600CDDEBF /* brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC522A69B40600CDDEBF /* brands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BDB6EC3A2A69A44F00CDDEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDB6EC3C2A69A45000CDDEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB6EC3F2A69A45000CDDEBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB6EC482A69A48600CDDEBF /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
+		BDB6EC4A2A69B33400CDDEBF /* fashionablyeducated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionablyeducated.swift; sourceTree = "<group>"; };
+		BDB6EC4C2A69B34B00CDDEBF /* sustainablestars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sustainablestars.swift; sourceTree = "<group>"; };
+		BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signaturestyle.swift; sourceTree = "<group>"; };
+		BDB6EC502A69B3F700CDDEBF /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
+		BDB6EC522A69B40600CDDEBF /* brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				BDB6EC382A69A44F00CDDEBF /* cloverApp.swift */,
 				BDB6EC3A2A69A44F00CDDEBF /* ContentView.swift */,
+				BDB6EC482A69A48600CDDEBF /* homepage.swift */,
+				BDB6EC4A2A69B33400CDDEBF /* fashionablyeducated.swift */,
+				BDB6EC502A69B3F700CDDEBF /* history.swift */,
+				BDB6EC522A69B40600CDDEBF /* brands.swift */,
+				BDB6EC4C2A69B34B00CDDEBF /* sustainablestars.swift */,
+				BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */,
 				BDB6EC3C2A69A45000CDDEBF /* Assets.xcassets */,
 				BDB6EC3E2A69A45000CDDEBF /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB6EC3B2A69A44F00CDDEBF /* ContentView.swift in Sources */,
+				BDB6EC532A69B40600CDDEBF /* brands.swift in Sources */,
+				BDB6EC512A69B3F700CDDEBF /* history.swift in Sources */,
 				BDB6EC392A69A44F00CDDEBF /* cloverApp.swift in Sources */,
+				BDB6EC4D2A69B34B00CDDEBF /* sustainablestars.swift in Sources */,
+				BDB6EC492A69A48700CDDEBF /* homepage.swift in Sources */,
+				BDB6EC4F2A69B37300CDDEBF /* signaturestyle.swift in Sources */,
+				BDB6EC4B2A69B33400CDDEBF /* fashionablyeducated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
