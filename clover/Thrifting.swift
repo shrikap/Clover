@@ -16,7 +16,7 @@ struct Thrifting: View {
                 Image("thirff")
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
-                
+                //hello
                 
                 VStack{
                     NavigationLink(destination: homepage()) {
