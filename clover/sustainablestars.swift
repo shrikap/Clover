@@ -9,9 +9,63 @@ import SwiftUI
 
 struct sustainablestars: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        NavigationStack {
+                   ZStack {
+                       Image("sus")
+                           .resizable(resizingMode: .stretch)
+                           .ignoresSafeArea()
+                       
+                       
+                       
+                       VStack {
+                           
+
+                             Spacer()
+                               .padding(.vertical, 160)
+                           NavigationLink(destination: Thrifting()) {
+                               Image("thrifting")
+                                   .renderingMode(.original)
+                                   .resizable(resizingMode: .stretch)
+                                   .aspectRatio(contentMode: .fit)
+                                   .scaledToFit()
+                                   .padding()
+                                   
+                                   
+                               
+                           }
+                           
+                           
+                           NavigationLink(destination: Styling()) {
+                               Image("stylingtips")
+                                   .resizable(resizingMode: .stretch)
+                                   .aspectRatio(contentMode: .fit)
+                                   
+                                   
+                           }
+                           
+                           
+                           
+                           NavigationLink(destination: DiyInspo()) {
+                               Image("diyinspo")
+                                   .resizable(resizingMode: .stretch)
+                                   .aspectRatio(contentMode: .fit)
+                                   .scaledToFit()
+                                   .padding()
+                               
+                              
+                               //sewing, thrifting, diy
+                                   
+                           }
+                           Spacer(minLength: 150)
+                               .padding()
+                           
+                           
+                       }
+                   }
+                   }
+                   
+               }
+           }
 
 struct sustainablestars_Previews: PreviewProvider {
     static var previews: some View {

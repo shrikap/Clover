@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1F55012A6AE93700541A7E /* toDoRedo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F55002A6AE93700541A7E /* toDoRedo.swift */; };
+		BD1F55042A6AEA0D00541A7E /* clover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD1F55022A6AEA0D00541A7E /* clover.xcdatamodeld */; };
 		BDB6EC392A69A44F00CDDEBF /* cloverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC382A69A44F00CDDEBF /* cloverApp.swift */; };
 		BDB6EC3B2A69A44F00CDDEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC3A2A69A44F00CDDEBF /* ContentView.swift */; };
 		BDB6EC3D2A69A45000CDDEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6EC3C2A69A45000CDDEBF /* Assets.xcassets */; };
@@ -17,9 +19,27 @@
 		BDB6EC4F2A69B37300CDDEBF /* signaturestyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */; };
 		BDB6EC512A69B3F700CDDEBF /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC502A69B3F700CDDEBF /* history.swift */; };
 		BDB6EC532A69B40600CDDEBF /* brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6EC522A69B40600CDDEBF /* brands.swift */; };
+		BDC4ADF72A69D06F00B72EAA /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4ADF62A69D06F00B72EAA /* Styling.swift */; };
+		BDC4ADF92A69D0B400B72EAA /* Thrifting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4ADF82A69D0B400B72EAA /* Thrifting.swift */; };
+		BDC4ADFB2A69D15100B72EAA /* oooclothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4ADFA2A69D15100B72EAA /* oooclothes.swift */; };
+		BDC4ADFD2A69D18D00B72EAA /* shurt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4ADFC2A69D18D00B72EAA /* shurt.swift */; };
+		BDC4ADFF2A69D22400B72EAA /* DiyInspo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4ADFE2A69D22400B72EAA /* DiyInspo.swift */; };
+		BDC4AE012A69D27C00B72EAA /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE002A69D27C00B72EAA /* test.swift */; };
+		BDC4AE032A69D2D600B72EAA /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE022A69D2D600B72EAA /* VideoView.swift */; };
+		BDC4AE052A69D3CB00B72EAA /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE042A69D3CB00B72EAA /* ToDoItem.swift */; };
+		BDC4AE092A69D4AA00B72EAA /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE082A69D4AA00B72EAA /* NewToDoView.swift */; };
+		BDC4AE0B2A69D50400B72EAA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE0A2A69D50400B72EAA /* Persistence.swift */; };
+		BDC4AE122A69DC3400B72EAA /* buildoutfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE112A69DC3400B72EAA /* buildoutfit.swift */; };
+		BDC4AE142A69DC5800B72EAA /* secondQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE132A69DC5800B72EAA /* secondQ.swift */; };
+		BDC4AE162A69DC8200B72EAA /* thirdQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE152A69DC8200B72EAA /* thirdQ.swift */; };
+		BDC4AE182A69DCBE00B72EAA /* final.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE172A69DCBE00B72EAA /* final.swift */; };
+		BDC4AE1A2A69DCED00B72EAA /* findyourstyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE192A69DCED00B72EAA /* findyourstyle.swift */; };
+		BDC4AE1C2A69E34D00B72EAA /* fashionissue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4AE1B2A69E34D00B72EAA /* fashionissue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1F55002A6AE93700541A7E /* toDoRedo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoRedo.swift; sourceTree = "<group>"; };
+		BD1F55032A6AEA0D00541A7E /* clover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clover.xcdatamodel; sourceTree = "<group>"; };
 		BDB6EC352A69A44F00CDDEBF /* clover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB6EC382A69A44F00CDDEBF /* cloverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloverApp.swift; sourceTree = "<group>"; };
 		BDB6EC3A2A69A44F00CDDEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +51,22 @@
 		BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signaturestyle.swift; sourceTree = "<group>"; };
 		BDB6EC502A69B3F700CDDEBF /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
 		BDB6EC522A69B40600CDDEBF /* brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brands.swift; sourceTree = "<group>"; };
+		BDC4ADF62A69D06F00B72EAA /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		BDC4ADF82A69D0B400B72EAA /* Thrifting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thrifting.swift; sourceTree = "<group>"; };
+		BDC4ADFA2A69D15100B72EAA /* oooclothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oooclothes.swift; sourceTree = "<group>"; };
+		BDC4ADFC2A69D18D00B72EAA /* shurt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shurt.swift; sourceTree = "<group>"; };
+		BDC4ADFE2A69D22400B72EAA /* DiyInspo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyInspo.swift; sourceTree = "<group>"; };
+		BDC4AE002A69D27C00B72EAA /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		BDC4AE022A69D2D600B72EAA /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		BDC4AE042A69D3CB00B72EAA /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BDC4AE082A69D4AA00B72EAA /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDC4AE0A2A69D50400B72EAA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BDC4AE112A69DC3400B72EAA /* buildoutfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildoutfit.swift; sourceTree = "<group>"; };
+		BDC4AE132A69DC5800B72EAA /* secondQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondQ.swift; sourceTree = "<group>"; };
+		BDC4AE152A69DC8200B72EAA /* thirdQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdQ.swift; sourceTree = "<group>"; };
+		BDC4AE172A69DCBE00B72EAA /* final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final.swift; sourceTree = "<group>"; };
+		BDC4AE192A69DCED00B72EAA /* findyourstyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findyourstyle.swift; sourceTree = "<group>"; };
+		BDC4AE1B2A69E34D00B72EAA /* fashionissue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fashionissue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +104,27 @@
 				BDB6EC482A69A48600CDDEBF /* homepage.swift */,
 				BDB6EC4A2A69B33400CDDEBF /* fashionablyeducated.swift */,
 				BDB6EC502A69B3F700CDDEBF /* history.swift */,
+				BDC4AE1B2A69E34D00B72EAA /* fashionissue.swift */,
 				BDB6EC522A69B40600CDDEBF /* brands.swift */,
 				BDB6EC4C2A69B34B00CDDEBF /* sustainablestars.swift */,
+				BDC4ADFE2A69D22400B72EAA /* DiyInspo.swift */,
+				BDC4AE002A69D27C00B72EAA /* test.swift */,
+				BDC4AE022A69D2D600B72EAA /* VideoView.swift */,
+				BDC4ADF62A69D06F00B72EAA /* Styling.swift */,
+				BDC4ADF82A69D0B400B72EAA /* Thrifting.swift */,
+				BDC4ADFA2A69D15100B72EAA /* oooclothes.swift */,
+				BDC4ADFC2A69D18D00B72EAA /* shurt.swift */,
 				BDB6EC4E2A69B37300CDDEBF /* signaturestyle.swift */,
+				BD1F55002A6AE93700541A7E /* toDoRedo.swift */,
+				BDC4AE112A69DC3400B72EAA /* buildoutfit.swift */,
+				BDC4AE132A69DC5800B72EAA /* secondQ.swift */,
+				BDC4AE152A69DC8200B72EAA /* thirdQ.swift */,
+				BDC4AE172A69DCBE00B72EAA /* final.swift */,
+				BDC4AE192A69DCED00B72EAA /* findyourstyle.swift */,
+				BDC4AE042A69D3CB00B72EAA /* ToDoItem.swift */,
+				BDC4AE082A69D4AA00B72EAA /* NewToDoView.swift */,
+				BDC4AE0A2A69D50400B72EAA /* Persistence.swift */,
+				BD1F55022A6AEA0D00541A7E /* clover.xcdatamodeld */,
 				BDB6EC3C2A69A45000CDDEBF /* Assets.xcassets */,
 				BDB6EC3E2A69A45000CDDEBF /* Preview Content */,
 			);
@@ -155,14 +209,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC4AE182A69DCBE00B72EAA /* final.swift in Sources */,
+				BDC4ADF72A69D06F00B72EAA /* Styling.swift in Sources */,
 				BDB6EC3B2A69A44F00CDDEBF /* ContentView.swift in Sources */,
 				BDB6EC532A69B40600CDDEBF /* brands.swift in Sources */,
+				BDC4ADF92A69D0B400B72EAA /* Thrifting.swift in Sources */,
+				BDC4ADFD2A69D18D00B72EAA /* shurt.swift in Sources */,
+				BDC4AE162A69DC8200B72EAA /* thirdQ.swift in Sources */,
+				BDC4ADFF2A69D22400B72EAA /* DiyInspo.swift in Sources */,
+				BDC4AE1A2A69DCED00B72EAA /* findyourstyle.swift in Sources */,
+				BDC4AE032A69D2D600B72EAA /* VideoView.swift in Sources */,
 				BDB6EC512A69B3F700CDDEBF /* history.swift in Sources */,
+				BDC4AE0B2A69D50400B72EAA /* Persistence.swift in Sources */,
+				BDC4AE142A69DC5800B72EAA /* secondQ.swift in Sources */,
+				BDC4ADFB2A69D15100B72EAA /* oooclothes.swift in Sources */,
+				BDC4AE092A69D4AA00B72EAA /* NewToDoView.swift in Sources */,
 				BDB6EC392A69A44F00CDDEBF /* cloverApp.swift in Sources */,
 				BDB6EC4D2A69B34B00CDDEBF /* sustainablestars.swift in Sources */,
+				BDC4AE122A69DC3400B72EAA /* buildoutfit.swift in Sources */,
 				BDB6EC492A69A48700CDDEBF /* homepage.swift in Sources */,
+				BDC4AE1C2A69E34D00B72EAA /* fashionissue.swift in Sources */,
 				BDB6EC4F2A69B37300CDDEBF /* signaturestyle.swift in Sources */,
 				BDB6EC4B2A69B33400CDDEBF /* fashionablyeducated.swift in Sources */,
+				BD1F55042A6AEA0D00541A7E /* clover.xcdatamodeld in Sources */,
+				BDC4AE052A69D3CB00B72EAA /* ToDoItem.swift in Sources */,
+				BDC4AE012A69D27C00B72EAA /* test.swift in Sources */,
+				BD1F55012A6AE93700541A7E /* toDoRedo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +433,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD1F55022A6AEA0D00541A7E /* clover.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD1F55032A6AEA0D00541A7E /* clover.xcdatamodel */,
+			);
+			currentVersion = BD1F55032A6AEA0D00541A7E /* clover.xcdatamodel */;
+			path = clover.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BDB6EC2D2A69A44F00CDDEBF /* Project object */;
 }

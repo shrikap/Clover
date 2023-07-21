@@ -20,9 +20,12 @@ struct fashionablyeducated: View {  @State private var sheinText = false
                 VStack{
                     NavigationLink(destination: homepage()) {
                         Image("homebutton")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                        
                     }
                     NavigationLink(destination: history()) {
-                        Image("history")
+                        Image("historyyy")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                         

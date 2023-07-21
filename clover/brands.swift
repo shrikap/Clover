@@ -19,7 +19,14 @@ struct brands: View {
                     )
            
                 VStack{
-                    Spacer(minLength:275)
+        
+                    
+                    NavigationLink(destination: homepage()) {
+                        Image("homebutton")
+                            .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)}
+                    Spacer(minLength: 200)
+                    
                     Button(action: {
                         
                         withAnimation(.linear(duration: 1)) {
@@ -70,7 +77,7 @@ struct brands: View {
         VStack (spacing : 5) {
             
             VStack {
-                
+            
                 
                 Image("1")
                     .resizable(resizingMode: .stretch)
