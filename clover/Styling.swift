@@ -9,19 +9,21 @@ import SwiftUI
 
 struct Styling: View {
     var body: some View {
-        ZStack{
-            Image("style")
-                .resizable(resizingMode: .stretch)
-                .ignoresSafeArea()
-            
-            VStack{
-                NavigationLink(destination: homepage()) {
-                    Image("homebutton")
-                        .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)}
-                Spacer(minLength:750)
+        NavigationStack{
+            ZStack{
+                Image("style")
+                    .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
                 
+                VStack{
+                    NavigationLink(destination: homepage()) {
+                        Image("homebutton")
+                            .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)}
+                    Spacer(minLength:750)
+                        .ignoresSafeArea()
+                    
+                }
             }
         }
     }

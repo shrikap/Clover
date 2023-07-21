@@ -11,27 +11,27 @@ struct oooclothes: View {
     
     
         var body: some View {
-            
-            ZStack {
-                Image("croptop")
-                    .resizable(resizingMode: .stretch)
-                    .ignoresSafeArea()
-                
-            VideoViews(videoID: "rKEZ_fHTTQY")
-                .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
-                .cornerRadius(12)
-                .padding(.horizontal, 10)
-                
-                VStack{
-                    NavigationLink(destination: homepage()) {
-                        Image("homebutton")
-                            .resizable(resizingMode: .stretch)
-                        .aspectRatio(contentMode: .fit)}
-                    Spacer(minLength:750)
+            NavigationStack{
+                ZStack {
+                    Image("croptop")
+                        .resizable(resizingMode: .stretch)
                         .ignoresSafeArea()
                     
+                    VideoViews(videoID: "rKEZ_fHTTQY")
+                        .frame(minHeight: 0, maxHeight: UIScreen.main.bounds.height * 0.3)
+                        .cornerRadius(12)
+                        .padding(.horizontal, 10)
+                    
+                    VStack{
+                        NavigationLink(destination: homepage()) {
+                            Image("homebutton")
+                                .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)}
+                        Spacer(minLength:750)
+                            .ignoresSafeArea()
+                        
+                    }
                 }
-            
         }
     }
 }

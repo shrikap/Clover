@@ -9,6 +9,7 @@ import SwiftUI
 
 struct fashionissue: View {
     var body: some View {
+        NavigationStack{
         ZStack{
             
             Image("issue")
@@ -21,6 +22,7 @@ struct fashionissue: View {
                     .aspectRatio(contentMode: .fit)}
                 Spacer()
                 
+            }
             }
         }
       }

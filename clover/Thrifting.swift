@@ -10,20 +10,22 @@ import SwiftUI
 struct Thrifting: View {
     
     var body: some View {
-        ZStack {
-          
+        NavigationStack{
+            ZStack {
+                
                 Image("thirff")
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
                 
                 
-            VStack{
-                NavigationLink(destination: homepage()) {
-                    Image("homebutton")
-                        .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)}
-                Spacer(minLength:750)
-                    .ignoresSafeArea()
+                VStack{
+                    NavigationLink(destination: homepage()) {
+                        Image("homebutton")
+                            .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)}
+                    Spacer(minLength:750)
+                        .ignoresSafeArea()
+                }
             }
         }
     }
